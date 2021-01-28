@@ -5,13 +5,12 @@
     margin: 0px auto;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .logon-container section.form {
     width: 100%;
     max-width: 350px;
-    margin-right: 50px;
 }
 
 .logon-container section.form form {
