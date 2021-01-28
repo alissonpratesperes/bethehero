@@ -14,7 +14,7 @@ import heroesImg from '../../assets/heroes.png';
                             <h1> Faça seu logon </h1>
                                 <input placeholder="Sua ID"/>
                                     <button className="button" tyoe="submit"> Entrar </button>
-                                        <Link to="/register"> <FiLogIn size={20} color="#E02041"/> Não tenho cadastro </Link>
+                                        <Link className="back-link" to="/register"> <FiLogIn size={20} color="#E02041"/> Não tenho cadastro </Link>
                         </form>
                 </section>
                     <img src={heroesImg} alt="Heroes"/>
