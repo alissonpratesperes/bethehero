@@ -1,0 +1,41 @@
+.profile-container {
+    width: 100%;
+    max-width: 1180px;
+    padding: 0px 30px;
+    margin: 35px auto;
+}
+
+.profile-container header {
+    display: flex;
+    align-items: center;
+}
+
+.profile-container header span {
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.profile-container header img {
+    height: 65px;
+}
+
+.profile-container header a {
+    width: 260px;
+    margin-left: auto;
+    margin-top: 0px;
+}
+
+.profile-container header button {
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    border: 1.5px solid #DCDCE6;
+    background: transparent;
+    margin-left: 20px;
+    transition: 0.2s;
+    transition-property: border-color;
+}
+
+.profile-container header button:hover {
+    border-color: #999999;
+}
