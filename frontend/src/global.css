@@ -43,6 +43,7 @@ form input {
     display: inline-block;
     text-align: center;
     text-decoration: none;
+    text-transform: uppercase;
     font-size: 18px;
     line-height: 60px;
     transition: filter 0.2s;

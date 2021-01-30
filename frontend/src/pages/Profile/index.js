@@ -10,7 +10,7 @@ import logoImg from '../../assets/logo.svg';
                 <header>
                     <img src={logoImg} alt="Be The Hero"/>
                         <span> Bem-vinda, APAD </span>
-                            <Link className="button" to="/incidents/new"> Cadastrar Novo Caso </Link>
+                            <Link className="button" to="/incidents/new"> Cadastrar Caso </Link>
                                 <button type="button"> <FiPower  size={25} color="#E02041"/> </button>
                 </header>
                     <h1> Casos Cadastrados </h1>
@@ -22,7 +22,7 @@ import logoImg from '../../assets/logo.svg';
                                     <p> Descrição Teste </p>
                                 <strong> VALOR: </strong>
                                     <p> R$ 120,00 </p>
-                                        <button type="button"> <FiTrash2 size={20} color="#A8A8B3"/> </button>
+                                        <button type="button"> <FiTrash2 size={25} color="#E02041"/> </button>
                             </li>
                             <li>
                                 <strong> CASO: </strong>
@@ -31,7 +31,7 @@ import logoImg from '../../assets/logo.svg';
                                     <p> Descrição Teste </p>
                                 <strong> VALOR: </strong>
                                     <p> R$ 120,00 </p>
-                                        <button type="button"> <FiTrash2 size={20} color="#A8A8B3"/> </button>
+                                        <button type="button"> <FiTrash2 size={25} color="#E02041"/> </button>
                             </li>
                             <li>
                                 <strong> CASO: </strong>
@@ -40,7 +40,7 @@ import logoImg from '../../assets/logo.svg';
                                     <p> Descrição Teste </p>
                                 <strong> VALOR: </strong>
                                     <p> R$ 120,00 </p>
-                                        <button type="button"> <FiTrash2 size={20} color="#A8A8B3"/> </button>
+                                        <button type="button"> <FiTrash2 size={25} color="#E02041"/> </button>
                             </li>
                             <li>
                                 <strong> CASO: </strong>
@@ -49,7 +49,7 @@ import logoImg from '../../assets/logo.svg';
                                     <p> Descrição Teste </p>
                                 <strong> VALOR: </strong>
                                     <p> R$ 120,00 </p>
-                                        <button type="button"> <FiTrash2 size={20} color="#A8A8B3"/> </button>
+                                        <button type="button"> <FiTrash2 size={25} color="#E02041"/> </button>
                             </li>
                         </ul>
             </div>
