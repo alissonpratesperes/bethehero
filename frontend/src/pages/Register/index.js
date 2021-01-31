@@ -11,7 +11,6 @@ import logoImg from '../../assets/logo.svg';
         const [whatsapp, setWhatsapp] = useState('');
         const [city, setCity] = useState('');
         const [uf, setUf] = useState('');
-
         const history = useHistory();
 
             async function handleRegister(event) {
