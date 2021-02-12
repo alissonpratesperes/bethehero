@@ -39,5 +39,26 @@ import Constants from 'expo-constants';
             borderRadius: 8,
             backgroundColor: '#FFFFFF',
             marginBottom: 16
+        },
+        incidentProperty: {
+            fontSize: 14,
+            color: '#41414D',
+            fontWeight: 'bold'
+        },
+        incidentValue: {
+            marginTop: 8,
+            fontSize: 15,
+            marginBottom: 24,
+            color: '#737380'
+        },
+        detailsButton: {
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+            alignItems: 'center'
+        },
+        detailsButtonText: {
+            color: '#E02041',
+            fontSize: 15,
+            fontWeight: 'bold'
         }
     });
