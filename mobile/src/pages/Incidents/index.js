@@ -13,7 +13,7 @@ import styles from './styles';
                 </View>
                     <Text style={styles.title}> Bem-vindo! </Text>
                     <Text style={styles.description}> Escolha um dos casos abaixo e salve o dia. </Text>
-                    <Text style={styles.incidentList}>
+                    <View style={styles.incidentList}>
                         <View style={styles.incident}>
                             <Text style={styles.incidentProperty}> ONG: </Text>
                             <Text style={styles.incidentValue}> APAD </Text>
@@ -59,7 +59,7 @@ import styles from './styles';
                                         <Feather name="arrow-right" size={16} color="#E02041"/>
                                 </TouchableOpacity>
                         </View>
-                    </Text>
+                    </View>
             </View>
         );
     }

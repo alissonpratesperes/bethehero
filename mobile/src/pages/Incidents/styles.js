@@ -30,5 +30,14 @@ import Constants from 'expo-constants';
             fontSize: 16,
             lineHeight: 24,
             color: '#737380'
+        },
+        incidentList: {
+            marginTop: 30
+        },
+        incident: {
+            padding: 24,
+            borderRadius: 8,
+            backgroundColor: '#FFFFFF',
+            marginBottom: 16
         }
     });
