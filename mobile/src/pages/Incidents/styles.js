@@ -13,7 +13,7 @@ import Constants from 'expo-constants';
             alignItems: 'center'
         },
         headerText: {
-            fontSize: 16,
+            fontSize: 18,
             color: '#000000'
         },
         headerTextBold: {
@@ -27,38 +27,56 @@ import Constants from 'expo-constants';
             fontWeight: 'bold'
         },
         description: {
-            fontSize: 16,
+            fontSize: 18,
             lineHeight: 24,
             color: '#737380'
         },
         incidentList: {
-            marginTop: 30
+            marginTop: 30,
         },
         incident: {
             padding: 24,
-            borderRadius: 8,
+            borderRadius: 15,
             backgroundColor: '#FFFFFF',
-            marginBottom: 16
+            marginBottom: 20
         },
         incidentProperty: {
-            fontSize: 14,
+            fontSize: 20,
             color: '#41414D',
             fontWeight: 'bold'
         },
         incidentValue: {
-            marginTop: 8,
-            fontSize: 15,
+            marginTop: 10,
+            fontSize: 20,
             marginBottom: 24,
             color: '#737380'
         },
-        detailsButton: {
+        detailsView: {
             flexDirection: 'row',
-            justifyContent: 'space-between',
+            justifyContent: 'space-around',
             alignItems: 'center'
         },
+        detailsButton: {
+            paddingHorizontal: 15,
+            backgroundColor: '#E02041',
+            borderRadius: 10,
+            height: 50
+        },
         detailsButtonText: {
-            color: '#E02041',
-            fontSize: 15,
-            fontWeight: 'bold'
+            color: '#FFFFFF',
+            lineHeight: 60,
+            borderRadius: 10,
+            fontSize: 18,
+            fontWeight: 'bold',
+            textTransform: 'uppercase'
+        },
+        detailsButtonIcon: {
+            justifyContent: 'center',
+            alignItems: 'center',
+            borderRadius: 10,
+            borderWidth: 1,
+            borderColor: '#DCDCE6',
+            height: 50,
+            width: 50
         }
     });
