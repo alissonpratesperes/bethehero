@@ -14,7 +14,7 @@ import styles from './styles';
                     <Text style={styles.title}> Bem-vindo! </Text>
                     <Text style={styles.description}> Escolha um dos casos abaixo e salve o dia. </Text>
                     
-                        <FlatList data={[1, 2, 3, 4]} style={styles.incidentList} keyExtractor={incident => String(incident)} renderItem={() => (
+                        <FlatList data={[1, 2, 3, 4]} style={styles.incidentList} renderItem={() => (
                             <View style={styles.incident}>
                                 <Text style={styles.incidentProperty}> ONG: </Text>
                                 <Text style={styles.incidentValue}> APAD </Text>
