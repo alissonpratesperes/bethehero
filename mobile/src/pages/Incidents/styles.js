@@ -4,7 +4,7 @@ import Constants from 'expo-constants';
     export default StyleSheet.create({
         container: {
             flex: 1,
-            paddingHorizontal: 24,
+            paddingHorizontal: 25,
             paddingTop: Constants.statusBarHeight + 20
         },
         header: {
@@ -13,8 +13,8 @@ import Constants from 'expo-constants';
             alignItems: 'center'
         },
         headerText: {
-            fontSize: 15,
-            color: '#737380'
+            fontSize: 16,
+            color: '#000000'
         },
         headerTextBold: {
             fontWeight: 'bold'
@@ -22,8 +22,8 @@ import Constants from 'expo-constants';
         title: {
             fontSize: 30,
             marginBottom: 16,
-            marginTop: 48,
-            color: '#13131A',
+            marginTop: 40,
+            color: '#41414D',
             fontWeight: 'bold'
         },
         description: {
