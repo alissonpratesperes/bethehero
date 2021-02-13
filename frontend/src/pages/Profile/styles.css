@@ -33,15 +33,15 @@
     height: 60px;
     width: 60px;
     border-radius: 10px;
-    border: 1.5px solid #DCDCE6;
+    border: 2px solid #DCDCE6;
     background: transparent;
     margin-left: 20px;
     transition: 0.2s;
-    transition-property: border-color;
+    transition-property: opacity;
 }
 
 .profile-container header button:hover {
-    border-color: #999999;
+    opacity: 0.6;
 }
 
 .profile-container h1 {

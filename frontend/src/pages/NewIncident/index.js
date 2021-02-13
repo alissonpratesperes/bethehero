@@ -30,7 +30,7 @@ import logoImg from '../../assets/logo.svg';
                                 <img src={logoImg} alt="Be The Hero"/>
                                     <h1> Cadastrar novo caso </h1>
                                         <p> Descreva o seu novo caso detalhadamente para encontrar um herói para resolver isso. </p>
-                                            <Link className="back-link" to="/profile"> <FiArrowLeft size={20} color="#E02041"/> Voltar à home </Link>    
+                                            <Link className="back-link" to="/profile"> <FiArrowLeft size={20} color="#E02041"/> Voltar ao início </Link>    
                             </section>
                                 <form onSubmit={handleNewIncident}>
                                     <input placeholder="Título do caso" value={title} onChange={e => setTitle(e.target.value)}/>

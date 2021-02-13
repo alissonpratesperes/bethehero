@@ -45,5 +45,13 @@
 
 .new-incident-container .content form input,
 .new-incident-container .content form textarea {
+    border: 2px solid #DCDCE6;
     margin-top: 10px;
+    transition: 0.2s;
+    transition-property: border;
+}
+
+.new-incident-container .content form input:hover,
+.new-incident-container .content form textarea:hover {
+    border: 2px solid #999999;
 }
