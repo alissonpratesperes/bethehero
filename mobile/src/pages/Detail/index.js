@@ -14,7 +14,7 @@ import styles from './styles';
                         </TouchableOpacity>
                 </View>
                 <View style={styles.incident}>
-                    <Text style={styles.incidentProperty}> ONG: </Text>
+                    <Text style={[styles.incidentProperty, {marginTop: 0}]}> ONG: </Text>
                     <Text style={styles.incidentValue}> APAD </Text>
                     <Text style={styles.incidentProperty}> CASO: </Text>
                     <Text style={styles.incidentValue}> Cadelinha atropelada. </Text>
@@ -25,7 +25,7 @@ import styles from './styles';
                     <Text style={styles.heroTitle}> Salve o dia! </Text>
                     <Text style={styles.heroTitle}> Seja o herói desse caso. </Text>
                     <Text style={styles.heroDescription}> Entre em contato: </Text>
-                        <View stlye={styles.action}>
+                        <View style={styles.actions}>
                             <TouchableOpacity style={styles.action} onPress={() => {}}>
                                 <Text style={styles.actionText}> WhatsApp </Text>
                             </TouchableOpacity>
