@@ -13,12 +13,12 @@ import logoImg from '../../assets/logo.svg';
 
             useEffect(() => {
                 api.get('profile', { 
-                    headers: { Authorization: ongId } }).then(response => { setIncidents(response.data); });
+                    headers: {Authorization: ongId}}).then(response => {setIncidents(response.data);});
             }, [ongId]);
 
                 async function handleDeleteIncident(id) {
                     try {
-                        await api.delete(`incidents/${id}`, { headers: { Authorization: ongId } });
+                        await api.delete(`incidents/${id}`, {headers:{Authorization: ongId}});
                             setIncidents(incidents.filter(incident => incident.id !== id));
                     } catch {
                         alert('Erro ao deletar caso, tente novamente.');
@@ -36,7 +36,7 @@ import logoImg from '../../assets/logo.svg';
                                 <img src={logoImg} alt="Be The Hero"/>
                                     <span> Bem-vinda, {ongName} </span>
                                         <Link className="button" to="/incidents/new"> Cadastrar Caso </Link>
-                                            <button onClick={handleLogout} type="button"> <FiPower  size={25} color="#E02041"/> </button>
+                                            <button onClick={handleLogout} type="button"> <FiPower size={25} color="#E02041"/> </button>
                             </header>
                                 <h1> Casos Cadastrados </h1>
                                     <ul>
@@ -47,7 +47,7 @@ import logoImg from '../../assets/logo.svg';
                                                 <strong> DESCRIÇÃO: </strong>
                                                     <p> {incident.description} </p>
                                                 <strong> VALOR: </strong>
-                                                    <p> {Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(incident.value)} </p>
+                                                    <p> {Intl.NumberFormat('pt-BR', {style: 'currency', currency: 'BRL'}).format(incident.value)} </p>
                                                         <button onClick={() => handleDeleteIncident(incident.id)} type="button"> <FiTrash2 size={25} color="#E02041"/> </button>
                                             </li>   
                                         ))}                  

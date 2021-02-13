@@ -10,14 +10,13 @@ import logoImg from '../../assets/logo.svg';
         const [description, setDescription] = useState('');
         const [value, setValue] = useState('');
         const history = useHistory();
-
         const ongId = localStorage.getItem('ongId');
 
             async function handleNewIncident(event) {
                 event.preventDefault();
-                    const data = { title, description, value };
+                    const data = {title, description, value};
                         try {
-                            await api.post('incidents', data, { headers: { Authorization: ongId } });
+                            await api.post('incidents', data, {headers:{Authorization: ongId}});
                                 history.push('/profile');
                         } catch(error) {
                             alert('Erro ao cadastrar seu novo caso, tente novamente.');

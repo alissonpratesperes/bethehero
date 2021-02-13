@@ -13,7 +13,7 @@ import heroesImg from '../../assets/heroes.png';
             async function handleLogin(event) {
                 event.preventDefault();
                     try {
-                        const response = await api.post('sessions', { id });
+                        const response = await api.post('sessions', {id});
                             localStorage.setItem('ongId', id);
                             localStorage.setItem('ongName', response.data.name);
                                 history.push('/profile');

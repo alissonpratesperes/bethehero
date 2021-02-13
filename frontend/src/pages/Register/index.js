@@ -15,7 +15,7 @@ import logoImg from '../../assets/logo.svg';
 
             async function handleRegister(event) {
                 event.preventDefault();
-                    const data = { name, email, whatsapp, city, uf };
+                    const data = {name, email, whatsapp, city, uf};
                         try {
                             const response = await api.post('ongs', data);
                                 alert(`Seu ID de acesso: ${response.data.id}`);
@@ -40,7 +40,7 @@ import logoImg from '../../assets/logo.svg';
                                     <input placeholder="WhatsApp" value={whatsapp} onChange={e => setWhatsapp(e.target.value)}/>
                                         <div className="input-group">
                                             <input placeholder="Cidade" value={city} onChange={e => setCity(e.target.value)}/>
-                                            <input placeholder="UF" style={{ width: 80 }} value={uf} onChange={e => setUf(e.target.value)}/>
+                                            <input placeholder="UF" style={{width: 80}} value={uf} onChange={e => setUf(e.target.value)}/>
                                         </div>
                                             <button className="button" type="Submit"> Cadastrar </button>
                                 </form>
