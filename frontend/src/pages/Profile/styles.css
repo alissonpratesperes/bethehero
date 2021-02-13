@@ -10,9 +10,13 @@
     align-items: center;
 }
 
-.profile-container header span {
+.profile-container header span.ong-name {
     font-size: 20px;
     margin-left: 50px;
+}
+
+.profile-container header span.ong-name-styled {
+    font-weight: bold;
 }
 
 .profile-container header img {
@@ -59,7 +63,6 @@
     padding: 25px;
     border-radius: 15px;
     position: relative;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 
 .profile-container ul li button {

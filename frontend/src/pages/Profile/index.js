@@ -34,7 +34,7 @@ import logoImg from '../../assets/logo.svg';
                         <div className="profile-container">
                             <header>
                                 <img src={logoImg} alt="Be The Hero"/>
-                                    <span> Bem-vinda, {ongName} </span>
+                                    <span className="ong-name"> Bem-vinda, <span className="ong-name-styled">{ongName}</span>. </span>
                                         <Link className="button" to="/incidents/new"> Cadastrar Caso </Link>
                                             <button onClick={handleLogout} type="button"> <FiPower size={25} color="#E02041"/> </button>
                             </header>
