@@ -9,8 +9,8 @@ import styles from './styles';
             <View style={styles.container}>
                 <View style={styles.header}>
                     <Image source={logoImg}/>
-                        <TouchableOpacity onPress={() => {}}>
-                            <Feather name="arrow-left" size={28} color="#E02041"/>
+                        <TouchableOpacity style={styles.backButton} onPress={() => {}}>
+                            <Feather name="arrow-left" size={25} color="#E02041"/>
                         </TouchableOpacity>
                 </View>
                 <View style={styles.incident}>

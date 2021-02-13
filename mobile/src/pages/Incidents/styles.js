@@ -14,7 +14,7 @@ import Constants from 'expo-constants';
         },
         headerText: {
             fontSize: 18,
-            color: '#000000'
+            color: '#41414D'
         },
         headerTextBold: {
             fontWeight: 'bold'
