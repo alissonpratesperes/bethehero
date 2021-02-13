@@ -44,7 +44,14 @@
 }
 
 .register-container .content form input {
+    border: 2px solid #DCDCE6;
+    transition: 0.2s;
+    transition-property: border;
     margin-top: 10px;
+}
+
+.register-container .content form input:hover {
+    border: 2px solid #999999;
 }
 
 .register-container .content form .input-group {
