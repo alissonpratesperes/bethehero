@@ -32,7 +32,7 @@ import logoImg from '../../assets/logo.svg';
                                 <img src={logoImg} alt="Be The Hero"/>
                                     <h1> Cadastre-se </h1>
                                         <p> Faça seu cadastro, entre na plataforma e ajude pesssoas a encontrarem os casos da sua ONG. </p>
-                                            <Link className="back-link" to="/"> <FiArrowLeft size={20} color="#E02041"/> Já sou cadastrado </Link>    
+                                            <Link className="back-link" to="/"> <FiArrowLeft size={25} color="#E02041"/> Já sou cadastrado </Link>    
                             </section>
                                 <form onSubmit={handleRegister}>
                                     <input placeholder="Nome da ONG" value={name} onChange={e => setName(e.target.value)}/>

@@ -51,7 +51,7 @@
     transition-property: border;
 }
 
-.new-incident-container .content form input:hover,
-.new-incident-container .content form textarea:hover {
+.new-incident-container .content form input:focus,
+.new-incident-container .content form textarea:focus {
     border: 2px solid #999999;
 }
