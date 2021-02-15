@@ -4,7 +4,6 @@ const IncidentController = require('./controllers/IncidentController');
 const OngController = require('./controllers/OngController');
 const ProfileController = require('./controllers/ProfileController');
 const SessionController = require('./controllers/SessionController');
-const { join } = require('./database/connection');
 const routes = express.Router();
 
     routes.get('/incidents',  celebrate({
@@ -33,6 +32,10 @@ const routes = express.Router();
             authorization: Joi.string().required()
         }).unknown()
     }), ProfileController.index); 
-    routes.post('/sessions', SessionController.create);
+    routes.post('/sessions', celebrate({
+        [Segments.BODY]: Joi.object().keys({
+            id: Joi.string().required()
+        })
+    }), SessionController.create);
     
         module.exports = routes;
