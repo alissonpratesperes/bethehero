@@ -47,4 +47,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - Execute o *Mobile:* **cd . . > enter > cd mobile > npm/yarn install > enter > concluído? > code .**. No *VS Code* acesse o arquivo **src/services/api.js** e configure o **IP da API**; Rode o *Mobile* com o comando **npm/yarn/expo start**.
 
+## :fuelpump: Autor
+
+- Projeto desenvolvido durante a **Semana OmniStack 11** da <a href="https://rocketseat.com.br/">Rocketseat</a>, ocorrida em **Março de 2020**;
+
+- Acesse  <a href="https://github.com/rocketseat-education/semana-omnistack-11">aqui</a> o **repositório oficial** da aplicação.
+
 
