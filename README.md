@@ -53,4 +53,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - Acesse  <a href="https://github.com/rocketseat-education/semana-omnistack-11">aqui</a> o **repositório oficial** da aplicação.
 
+## :memo: Licença
+
+Esse projeto está sob a **Licença MIT**. Veja o arquivo [LICENSE](https://github.com/alissonpratesperes/bethehero/blob/main/LICENSE) para mais detalhes.
 
