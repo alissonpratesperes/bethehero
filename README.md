@@ -32,7 +32,7 @@ O **BeTheHero** é um projeto que visa conectar pessoas que desejam fazer contri
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - <a href="https://nodejs.org/en">NodeJS</a>
-- <a href="http://knexjs.org//">KnexJS</a>
+- <a href="http://knexjs.org/">KnexJS</a>
 - <a href="https://reactjs.org/">ReactJS</a>
 - <a href="https://reactnative.dev/">React Native</a>
 - <a href="https://expo.io/">Expo</a>
