@@ -37,4 +37,14 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - <a href="https://reactnative.dev/">React Native</a>
 - <a href="https://expo.io/">Expo</a>
 
+## :electric_plug: Execute
+
+- Através do **Terminal(MacOS)** ou **Prompt de Comando(Windows)** acesse os diretórios através do comando **cd . . / cd 'diretório'**. *Abra um **terminal** por diretório pois será necessário deixar cada **stack** rodando separadamente*, para facilitar utilize o **Toggle Integrated Terminal** do VSCode;
+
+- Execute o *BackEnd*: **cd bethehero > enter > cd backend > npm/yarn install > enter > concluído? > code .**. Rode o *BackEnd* com o comando **npm/yarn dev**;
+
+- Execute o *FrontEnd:* **cd . . > enter > cd frontend > npm/yarn install > enter > concluído? > code .**. No *VS Code* acesse o arquivo **src/services/api.js** e configure o **IP da API**; Rode o *FrontEnd* com o comando **npm/yarn start**;
+
+- Execute o *Mobile:* **cd . . > enter > cd mobile > npm/yarn install > enter > concluído? > code .**. No *VS Code* acesse o arquivo **src/services/api.js** e configure o **IP da API**; Rode o *Mobile* com o comando **npm/yarn/expo start**.
+
 
