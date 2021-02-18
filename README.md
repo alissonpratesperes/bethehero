@@ -21,4 +21,10 @@
 </p>
 <br/>
 <p align="center"> <img src="github/bethehero_dashboard.png" width="100%"> </p>
+<br/>
+
+## :dart: Sobre
+
+O **BeTheHero** é um projeto que visa conectar pessoas que desejam fazer contribuições monetárias a ONGs *(Organizações Não Governamentais)* que precisam de ajuda.
+
 
