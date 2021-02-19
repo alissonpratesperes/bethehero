@@ -29,7 +29,6 @@ import styles from './styles';
 
                 useEffect(() => {
                     loadIncidents();
-
                 }, []);
 
                     return (

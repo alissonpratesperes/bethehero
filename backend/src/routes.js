@@ -6,7 +6,7 @@ const ProfileController = require('./controllers/ProfileController');
 const SessionController = require('./controllers/SessionController');
 const routes = express.Router();
 
-    routes.get('/incidents',  celebrate({
+    routes.get('/incidents', celebrate({
         [Segments.QUERY]: Joi.object().keys({
             page: Joi.number()
         })
