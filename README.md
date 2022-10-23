@@ -39,3 +39,13 @@ Essa Aplicação foi desenvolvida utilizando as seguintes tecnologias:
 - <a href="https://axios-http.com/">Axios</a>
 - <a href="https://expo.dev/">Expo IO</a>
 - <a href="https://reactnative.dev/">React Native</a>
+
+## :fuelpump: Autor
+
+Projeto desenvolvido durante a **Semana OmniStack 11** da <a href="https://rocketseat.com.br/">Rocketseat</a>, ocorrida em **Março de 2020**;
+
+Acesse <a href="https://github.com/rocketseat-education/semana-omnistack-11">aqui</a> o **repositório oficial** da aplicação.
+
+## :memo: Licença
+
+Esse projeto está sob a **Licença MIT**. Veja o arquivo [LICENSE](https://github.com/alissonpratesperes/bethehero/blob/main/LICENSE) para mais detalhes.
